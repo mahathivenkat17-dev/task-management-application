@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mahati V.B",
+      "email": "abc@gmail.com",
+      "password": "$2a$10$maKs8Fd/Uwi6z344EZTjh.oYw7zaiB1EZhYs5TZEnQxEWXwhlsB82",
+      "created_at": "2026-10-01T14:52:31.225Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Complete Web Development Assignment",
+      "description": "Finish the Task 2 project and test all features",
+      "status": "done",
+      "priority": "high",
+      "due_date": "2026-10-04",
+      "created_at": "2026-10-01T14:56:40.753Z",
+      "updated_at": "2026-10-01T14:59:03.632Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "title": "Complete Java Project",
+      "description": "Finish the Hostel Management System for 2nd review",
+      "status": "in-progress",
+      "priority": "medium",
+      "due_date": "2026-10-10",
+      "created_at": "2026-10-01T15:03:32.848Z",
+      "updated_at": "2026-10-01T15:03:32.848Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "title": "Thiranex Task 3",
+      "description": "To Complete e-commerse Application",
+      "status": "todo",
+      "priority": "high",
+      "due_date": "2026-10-07",
+      "created_at": "2026-10-01T15:06:17.235Z",
+      "updated_at": "2026-10-01T15:06:17.235Z"
+    }
+  ],
+  "nextUserId": 2,
+  "nextTaskId": 4
+}
